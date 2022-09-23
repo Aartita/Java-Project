@@ -1,0 +1,69 @@
+ore java mini projects:  
+Library Mgmt System
+Hotel Mgmt system
+Hospital Mgmt System
+Student Information System
+ATM Machine
+Salary Magmt System
+Career Information Mgmt System
+Course Mgmt System
+Event Mgmt System
+Electricity Billing System
+Book store Mgmt
+Medical Mgmt system
+Stock Mgmt system
+Telephone Billing System
+Travel Mgmt System
+Campain Mgmt System
+University Admission Mgmt System
+Content Mgmt System
+Student Result Processing system
+Labour Mgmt system
+
+
+
+
+
+
+
+
+Read the question carefully and follow the input and output format.
+
+Given an integer array. The first index represents the Student id, Second index represents C-programming marks and the third index Represents SQL marks. 
+Write a program to find the Ids of students who have cleared both C-programming and SQL.
+
+Note :(1) The Pass Marks is >=70
+
+Input and Output Format :
+
+First line of input consists of n, the number of elements. Next n lines correspond to the array elements. Output consist of an integer array.
+
+1) Print "Invalid array size" when size of the array is negative and terminate the program.
+2) Print "Invalid input" when there is any negative number available in the input array and terminate the program.
+
+Include a function named clearedStage1(int array[], int size) whose return type is void.
+The output array is stored in a instance variable named cleared.
+Sample Input 1:
+9
+1
+25
+75
+3
+75
+80
+2
+75
+75
+
+Sample Output 1:
+3
+2
+
+Sample Input 2:
+6
+4
+25
+-78
+
+Sample Output 2:
+Invalid input

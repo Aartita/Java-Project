@@ -1,0 +1,116 @@
+class:
+class is an blueprint of an object.
+before creating an object ,we need to define the class.
+class contains all the related information.
+
+Object:
+Object is an instant of a class
+It has any entity that has state and behaviour.
+for ex. Bicycle is an object
+It has state :gear
+Behaviour:breaking,accelerating
+
+class Demo
+{
+    //fields/properties
+    
+    //constructor
+    
+    //method
+    }
+    
+    Method
+    
+    1.code reusability
+    2.Better separation of code
+    3.easy to maintain
+    
+    access-modifier return-type methodName(arg)
+    {
+    
+    }
+    
+    
+    Types:
+    
+   1 default(with or without returntype)
+   2 parameteried(with or without returntype)
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   Method Overloading(compile time polymorphism):
+   Same method name having different parameter
+   
+   Overload area()
+   
+   Constructor:
+   -It is used to initialize data members
+   -constructor name and class name is always same
+   -It doesn't return any value
+   -We call constructor at the time of object creation
+   
+   
+   
+   1.Calculate Simple Interest
+2.Calculate Area of Triangle
+3.Create class Student with id,name and marks of 3 subjects and calculate percentage.
+4.create class Employee with id,name,workingDays,perDay and calculate salary
+   
+   
+   this()-use to call constructor from same class
+   
+   
+   
+   n a car racing video game, the car is an object. You can drive the car, turn the car, or stop the car when needed but you need to drive long. You will get money according to the Km you have travelled. For example if you have travelled 123 km then the product of the km (ie 1*2*3 = 6) would be the amount you win. Write a program to find the product of the digits in the given input number.
+ Include a function named productDigits that accepts an integer argument and returns an integer that corresponds to the product of digits in the integer.
+The function returns -1 if the input number is negative or greater than 32767.
+ If the function returns -1, print Invalid Input.
+ Input and Output Format:
+Input consists of an integer.
+Output consists of an integer.
+Refer sample output for formatting specifications.
+ Sample Input 1:
+32
+Sample Output 1:
+6
+ Sample Input 2:
+-67
+Sample Output 2:
+Invalid Input
+
+
+
+Write a program to convert given temperature from Fahrenheit to Centigrade.
+Formula:
+C/5 = (F-32)/9
+C stands for Centigrade.
+F stands for Fahrenheit.
+ Include a function named convertToCentigrade that accepts an integer argument and returns a float that corresponds to the centigrade equivalent.
+ If the input is a negative number, print Invalid Input and terminate the program.
+ Input and Output Format:
+Input consists of a single integer.
+Output consists of a floating point number that corresponds to the centigrade equivalent. The output is displayed correct to 2 decimal places.
+Sample Input 1:
+77
+ Sample Output 1:
+25.00
+Sample Input 2:
+-2345
+Sample Output 2:
+Invalid Input
+
+   
+   
+   
+   
+   
+   HAS

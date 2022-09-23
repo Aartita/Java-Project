@@ -1,0 +1,14 @@
+What is the output for the below code ?
+1. public class Test {
+2. public static void main(String[] args){
+3. int i = 010;
+4. int j = 07;
+5. System.out.println(i);
+6. System.out.println(j);
+7. }
+8. }
+Options are 
+A.8 7
+B.10 7
+C.Compilation fails with an error at line 3
+D.Compilation fails with an error at line 5

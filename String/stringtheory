@@ -1,0 +1,120 @@
+1.program to check whether given string is a palindrome or not?
+	2.program to remove given character from the string
+	3.program to count no. of words in a String
+	4.program to count no. of vowels and consonents from a string
+	5.program to find out largest and smallest word in the string
+	6.program to find the frequency of character from the string
+	7.program to determine whether 2 strings are anagram or not?
+
+	
+	
+	
+	
+	
+	Read the question carefully and follow the input and output format.
+
+Given the basic salary as input, write a program to calculate the bonus and display it.
+
+The bonus will be calculated based on the below category.
+Basic>20000 bonus=17%of basic+1500
+Basic>15000 bonus=15%of basic+1200
+Basic>10000 bonus=12%of basic+1000
+for rest =8%of basic+500
+
+Input and Output Format :
+
+First line of input consists of n, the basic salary.
+Output is a single integer that displays the bonus.
+
+Print "Number too large" when the given input numbers is greater than 32767 .
+Print "Number too small" when the given input is a negative number.
+
+Include a function named calculateBonus(int basic) whose return type is an integer, the bonus.
+
+Sample Input 1:
+21000
+
+Sample Output 1:
+5070
+
+Sample Input 2:
+327678
+Sample Output 2:
+Number too large
+	
+	
+	
+	Read the question carefully and follow the input and output format.
+
+Write a program to generate new number from the given input based on following conditions.
+
+(i) Even digit should be replaced by next Even digit.
+(ii) Odd digit should be replaced with next Odd digit
+
+Input and Output Format :
+Input consists of an integer. Output is also an integer.
+
+1) Print "Number too small" when any of given input numbers is a negative number.
+2) Print "Number too large" when any of given input numbers is greater than 32767.
+
+
+Sample Input 1:
+123
+
+Sample Output 1:
+345
+
+Sample Input 2:
+32768
+
+Sample Output 2:
+Number too large
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	John is working in a bank. He has created account details transaction in a file and protected it with a password. He sent the file to his manager for review. 
+The file is protected with a password. The password is the sum of Prime numbers. Write a function to generate the password.
+
+Input and Output Format:
+First line of input consists of n, the number of elements. Next n lines correspond to the array elements. Output consist of an integer, which is the sum.
+
+1) Print "Invalid array size" when size of the array is a negative number and terminate the program.
+2) Print "Invalid input" when there is any negative number available in the input array and terminate the program.
+3) Print 0, when there are no prime numbers in a given input array.
+
+Include a function named sumPrimeArray(int array[], int size) whose return type is an integer, which is the prime sum.
+
+Sample Input 1:
+5
+1
+2
+3
+4
+5
+
+Sample Output 1:
+10
+
+Sample Input 2:
+3
+4
+8
+9
+
+Sample Output 2:
+0
+	
